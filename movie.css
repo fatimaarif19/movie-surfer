@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #e1d85d;
+    display: flex;  /* add flexbox it's imp */
+    justify-content: center;  /* to horizontally center */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #b2f7b3;
+}
+
+h1 {
+    color: #d5006b;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #d5006b;
+}
+
+input, select {
+    width: 250px;
+}
+
+button {
+    background-color: #d5006b;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+#movieDisplay {
+    margin-top: 20px;
+}
+
+#movieTitle {
+    font-size: 1.8em;
+    color: #4caf50;
+}
+
+#movieYear, #moviePlot {
+    font-size: 1.1em;
+    color: #333;
+}
+
+#moviePoster {
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+#moviePlot {
+    font-style: italic;
+    color: #555;
+}
